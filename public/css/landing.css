@@ -40,7 +40,13 @@ color: #FFFFFF;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.count
+{
+display:flex;
+flex-direction:column;
+justify-content:space between;
+align-items:center;
+}
 .positive{
   background-image: url('/images/positive.jpg');
   height: 40%; 

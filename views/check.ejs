@@ -1,27 +1,34 @@
     <link rel="stylesheet" href="/css/landing.css">
     <div class="title">Expressions</div>
-    <% if (final == "Positive Review") { %>
-    <div class="positive"></div>
+    <% if (pos>neg) { %>
+     <div class="positive"></div>
     <% } %>
-    <% if (final == "Negative Review") { %>
-    <div class="negative"></div>
+    <% if (pos<neg) { %>
+     <div class="negative"></div>
     <% } %>
-    <% if (final == "Neutral Review") { %>
+    <% if (pos==neg) { %>
     <div class="neutral"></div>
     <% } %>
-    <div style="height:500px; text-align:center;">
+    <div style="height:auto; text-align:center;">
     <div class="sub-title">Know What the Words Express </div>
+    <div class = "count">
     <p>
-    Result For  "<%=entry%>" : <%= final %>
+    Positve Reviews = <%=pos%> <br> Negative Reviews = <%=neg%> <br> Neutral Reviews = <%=neu%>
+    </p>
+    </div>
+    <%for(var i=0;i<entry.length;i++){%>
+    <p>
+    Result For  "<%=entry[i]%>" : <%= final[i] %>
     </p>
     <br><br>
+    <%}%>
 	</div>
-	<% if (final == "Positive Review") { %>
+	<% if (pos>neg) { %>
     <div class="positive"></div>
     <% } %>
-    <% if (final == "Negative Review") { %>
-    <div class="negative"></div>
+    <% if (pos<neg) { %>
+     <div class="negative"></div>
     <% } %>
-    <% if (final == "Neutral Review") { %>
+    <% if (pos==neg) { %>
     <div class="neutral"></div>
     <% } %>

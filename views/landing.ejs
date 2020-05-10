@@ -1,18 +1,20 @@
     <link rel="stylesheet" href="/css/landing.css">
     <div class="title">Expressions</div>
     <div class="parallax"></div>
-    <div style="height:700px; text-align:center;">
+    <div style="height:auto; text-align:center;">
     <div class="sub-title">Know What the Words Express </div>
     <p>
     Expressions, is a web app designed to find out the gist of a review for every creator.
     Enter a review to find out whether it is Positive, Negative or a Neutral Review. 
     </p>
     <br><br>
-    <form method="post" action="/check">
+    <form method="post" action="/check" id="form1">
     <label><p>Enter the Sentence:</p><br>
-    <input type="text" name="entry" placeholder="Type Here" required>
-    </label><br><br><br>
+    <textarea rows="5" name= "entry" form = "form1"></textarea>
+    </label><br>
     <button type="submit"><b>Check</b></button>
+    <br>
+    <br>
     </form>
 	</div>
 	<div class="parallax"></div>
