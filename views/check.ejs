@@ -1,0 +1,27 @@
+    <link rel="stylesheet" href="/css/landing.css">
+    <div class="title">Expressions</div>
+    <% if (final == "Positive Review") { %>
+    <div class="positive"></div>
+    <% } %>
+    <% if (final == "Negative Review") { %>
+    <div class="negative"></div>
+    <% } %>
+    <% if (final == "Neutral Review") { %>
+    <div class="neutral"></div>
+    <% } %>
+    <div style="height:500px; text-align:center;">
+    <div class="sub-title">Know What the Words Express </div>
+    <p>
+    Result For  "<%=entry%>" : <%= final %>
+    </p>
+    <br><br>
+	</div>
+	<% if (final == "Positive Review") { %>
+    <div class="positive"></div>
+    <% } %>
+    <% if (final == "Negative Review") { %>
+    <div class="negative"></div>
+    <% } %>
+    <% if (final == "Neutral Review") { %>
+    <div class="neutral"></div>
+    <% } %>

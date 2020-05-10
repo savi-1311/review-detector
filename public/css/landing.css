@@ -1,0 +1,104 @@
+   body, html {
+      height: 100%;
+      font-family: 'Josefin Sans', sans-serif;
+      background-color: #000000;
+      }
+      
+.title
+{
+/*background-image: linear-gradient(45deg, #0000CD, #00BFFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;*/
+  background: url(https://andyhooke.co.uk/wp-content/uploads/2018/02/yellow-brushstroke.png);
+  background-position: center;
+  opacity:90%;
+background-repeat: no-repeat;
+background-size: 80% 65%;
+padding: 6% 1%;
+  color:black;
+width: 100%;
+position: absolute;
+font-size: 240px;
+text-align:center;
+}
+.sub-title
+{
+padding: 1%;
+font-family: 'Sofia';font-size: 22px;
+font-size: 100px;
+text-align:center;
+color: #FFFFFF;
+}
+
+.parallax{
+  background-image: url('/images/bg2.jpg');
+  height: 40%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.positive{
+  background-image: url('/images/positive.jpg');
+  height: 40%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.negative{
+  background-image: url('/images/negative.jpg');
+  height: 40%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.neutral{
+  background-image: url('/images/neutral.jpg');
+  height: 40%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+input[type=text]{
+width: 90%;
+padding: 1%;
+border: 1%;
+border: 1px solid #C0C0C0;
+background-color: #ffffff;
+color: #000000;
+font-size: 30px;
+text-align: center;
+}
+button{
+border: 2%;
+padding: 1% 4%;
+background-color:#32CD32;
+border: none;
+color: #ffffff;
+font-size: 15px;
+border-top-left-radius: 50px;
+border-bottom-left-radius: 50px;
+border-top-right-radius: 50px;
+border-bottom-right-radius: 50px;
+}
+button:hover{
+background-color:#228B22;
+cursor:pointer;
+transform: scale(1.1);
+
+}
+p
+{
+width: 100%;
+text-align: center;
+color: #ffffff;
+font-size: 30px;
+}
